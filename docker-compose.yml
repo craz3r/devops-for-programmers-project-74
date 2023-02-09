@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    command: npm run test
+    volumes:
+      - "./app:/app"
+    image: craz3r/devops-for-programmers-project-74
