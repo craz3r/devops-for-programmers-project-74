@@ -17,7 +17,7 @@ jobs:
       - name: Run tests
         run: make ci
   build-app:
-    needs: build-backend
+    needs: run-test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
