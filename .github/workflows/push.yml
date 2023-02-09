@@ -15,7 +15,7 @@ jobs:
           node-version: 14.18.1
       - run: make setup
       - name: Run tests
-        run: make ci
+        run: make test
   build-app:
     needs: run-test
     runs-on: ubuntu-latest
