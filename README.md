@@ -11,6 +11,8 @@
 ### Install dependencies
 `make setup`
 
+After installing all dependencies, you should configure .env file with your database credentials or use default values
+
 ### Run tests
 `make test`
 
