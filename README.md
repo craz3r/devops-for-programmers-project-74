@@ -9,10 +9,10 @@
 ### Docker image [craz3r/devops-for-programmers-project-74](https://hub.docker.com/r/craz3r/devops-for-programmers-project-74)
 
 ### Install dependencies
-make setup
+`make setup`
 
 ### Run tests
-make test
+`make test`
 
 ### Run application
-make start
+`make start`
